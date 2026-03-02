@@ -6,7 +6,6 @@ npx hardhat node --hostname 0.0.0.0 &
 NODE_PID=$!
 
 echo "Waiting for RPC..."
-# Đợi cho mạng blockchain khởi động xong
 sleep 5 
 
 echo "Deploying contracts..."
